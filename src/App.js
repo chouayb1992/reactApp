@@ -1,6 +1,13 @@
+import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Badge from 'react-bootstrap/Badge';
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+
+
 
 function App() {
       return (
@@ -32,7 +39,7 @@ function App() {
  
  
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src="https://pbs.twimg.com/media/F5o8RfQaoAAV2qx?format=jpg&name=medium" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -44,7 +51,7 @@ function App() {
     </Card>
 
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src="https://pbs.twimg.com/media/F5o8RfxbcAArht-?format=jpg&name=medium" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
